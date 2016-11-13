@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+fig, ax = plt.subplots()
+ax1 = plt.subplot(211)
+plt.plot($1)
+ax2 = plt.subplot(212)
+plt.plot($2)
+plt.show()
+]]></content>
+    <tabTrigger>subplot</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

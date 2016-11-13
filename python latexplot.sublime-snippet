@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+# Figure cosmetic setup
+plt.style.use('fivethirtyeight') # others: ggplot, bmh
+plt.rc('text', usetex=True)
+font = {'family' : 'serif', 'size'   : 16}
+matplotlib.rc('font', **font)
+marker = itertools.cycle(('o', 's', '^', 'D', '*'))
+marker = itertools.cycle(('o', 's', '^', 'D', '*'))
+
+# Plot figure
+fig = plt.figure()
+plt.plot($1, $2, label="$3", linewidth=1.5)
+plt.legend()
+plt.xlabel(r'\\textbf{time} (s)')
+plt.ylabel("")
+plt.title(r"\\TeX\\ is Number "
+          r"\$\\displaystyle\\sum_{n=1}^\\infty\\frac{-e^{i\\pi}}{2^n}\$!",
+          color='blue')
+plt.show()
+]]></content>
+    <tabTrigger>latexplot</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

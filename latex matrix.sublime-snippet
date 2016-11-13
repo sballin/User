@@ -1,0 +1,17 @@
+<snippet>
+	<description>Table</description>
+	<content><![CDATA[
+\\begin{table}[H]
+    \\centering
+    \\begin{tabular}{cc}
+        $1 & \\\\\\hline
+           & \\\\
+        
+    \\end{tabular}
+    \\caption{}
+\\end{table}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lta</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

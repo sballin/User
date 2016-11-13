@@ -1,0 +1,9 @@
+<snippet>
+	<description>Subsection</description>
+	<content><![CDATA[
+\\subsection*{$1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subsect</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

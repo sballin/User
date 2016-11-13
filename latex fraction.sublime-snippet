@@ -1,0 +1,9 @@
+<snippet>
+	<description>Fraction</description>
+	<content><![CDATA[
+\\frac{$1}{$2}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fr</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

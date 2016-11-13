@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/**
+    METHOD DESCRIPTION
+*/
+public ${2:void} ${1:method}()
+{
+    $3
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mc</tabTrigger>
+</snippet>

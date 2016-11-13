@@ -1,0 +1,38 @@
+<snippet>
+	<description>Article template</description>
+	<content><![CDATA[
+\\documentclass[12pt]{article}
+\\usepackage[margin=1in]{geometry}
+\\usepackage{amsmath}
+\\geometry{letterpaper}
+\\usepackage{graphicx}
+\\usepackage{amssymb}
+\\usepackage{url}
+\\usepackage{hyperref}
+\\usepackage{epstopdf}
+\\usepackage{titling}
+\\usepackage[color=blue!40]{todonotes}
+\\usepackage{float}
+\\usepackage{cancel}
+\\usepackage{titlesec}
+\\titleformat{\\subsection}[runin]{\\bfseries}{}{}{}[]
+\\author{}
+\\usepackage[parfill]{parskip}
+\\providecommand{\\e}[1]{\\ensuremath{\\hspace{.1em}\\cdot10^{#1}}}
+\\setlength{\\footskip}{1.2cm}
+\\title{}
+\\pretitle{\\vspace{-4em}\\begin{center}\\Huge\\bfseries}
+\\begin{document}
+\\maketitle
+
+$1
+
+%\\bibliography{thebibfilename}
+%\\bibliographystyle{ieeetr}
+
+\\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>article</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

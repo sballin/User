@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+plt.legend(loc=$1) # http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.legend
+]]></content>
+    <tabTrigger>legend</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

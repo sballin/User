@@ -1,0 +1,9 @@
+<snippet>
+	<description>End environment</description>
+	<content><![CDATA[
+\\end{$1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>end</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

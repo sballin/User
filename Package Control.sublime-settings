@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"DashDoc",
+		"DocBlockr_Python",
+		"Edit Command Palette",
+		"Expression",
+		"File Rename",
+		"Fix Mac Path",
+		"GitGutter",
+		"Highlight Build Errors",
+		"ImageMagick",
+		"LaTeXTools",
+		"LocalVariable",
+		"Method",
+		"Oblivion Color Scheme",
+		"Package Control",
+		"Python Breakpoints",
+		"Statement",
+		"SublimeLinter",
+		"SublimeLinter-pyflakes",
+		"Terminal",
+		"Theme - Lanzhou",
+		"WordCount"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/alpha/packages.json"
+	]
+}

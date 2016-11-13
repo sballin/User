@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+plt.figure()
+plt.plot($1, $2, label="$3")
+plt.legend()
+plt.xlabel("$4")
+plt.ylabel("$5")
+plt.show()
+]]></content>
+    <tabTrigger>plot</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

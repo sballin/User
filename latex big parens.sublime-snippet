@@ -1,0 +1,9 @@
+<snippet>
+	<description>Big parentheses</description>
+	<content><![CDATA[
+\\left($1\\right)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>le</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

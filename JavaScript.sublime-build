@@ -1,0 +1,3 @@
+{
+    "cmd": ["/usr/bin/open", "$file"]
+}

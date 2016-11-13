@@ -1,0 +1,11 @@
+<snippet>
+	<description>Equation</description>
+	<content><![CDATA[
+\\begin{equation}
+    $1
+\\end{equation}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>eqn</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

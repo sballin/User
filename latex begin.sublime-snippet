@@ -1,0 +1,9 @@
+<snippet>
+	<description>Begin environment</description>
+	<content><![CDATA[
+\\begin{$1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>beg</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

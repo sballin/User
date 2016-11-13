@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+import matplotlib.pyplot as plt
+]]></content>
+    <tabTrigger>mpl</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
