@@ -1,0 +1,20 @@
+<snippet>
+	<description>Dual figure</description>
+	<content><![CDATA[
+    \\begin{figure}[H]
+    \\centering
+    \\begin{subfigure}[t]{0.5\\textwidth}
+        \\includegraphics[width=\\textwidth]{}
+        \\caption{}
+    \\end{subfigure}%
+    ~
+    \\begin{subfigure}[t]{0.5\\textwidth}
+        \\includegraphics[width=\\textwidth]{}
+        \\caption{}
+    \\end{subfigure}
+    \\end{figure}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bdualfigure</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

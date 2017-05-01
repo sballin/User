@@ -1,8 +1,10 @@
 [
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
-    { "keys": ["super+r"], "command": "build"},
-    {"keys": ["super+e"], "command": "insert", "args": {"characters": "\\"}}
+    { "keys": ["super+shift+r"], "command": "build"},
+    // { "keys": ["cmd+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["super+e"], "command": "insert", "args": {"characters": "\\"}},
+    { "keys": ["cmd+;"], "command": "toggle_comment", "args": { "block": false } }
     // // Move out of common paired characters () and [] with `Tab`
     // {
     //     "keys": ["tab"],

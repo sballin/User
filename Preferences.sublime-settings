@@ -14,10 +14,11 @@
 	"caret_style": "wide",
 	"color_scheme": "Packages/User/SublimeLinter/GitHub_Bold (SL).tmTheme",
 	"detect_slow_plugins": false,
+	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
+	"fade_fold_buttons": true,
 	"font_face": "Hack",
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -36,6 +37,7 @@
 		"Rails",
 		"RestructuredText",
 		"Scala",
+		"SFTP",
 		"Textile",
 		"YAML"
 	],
@@ -44,6 +46,10 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"open_files_in_new_window": false,
+	"original_color_scheme": "Packages/User/Color Highlighter/themes/GitHub_Bold (SL).tmTheme",
+	"rulers":
+	[
+	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"tab_size": 4,
